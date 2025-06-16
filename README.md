@@ -22,8 +22,8 @@ RinseRight is an online laundry management system built in Java. It streamlines 
 ### Prerequisites
 
 - Java 11 or higher (JDK)
-- A build tool such as Maven or Gradle (if used)
-- (Optional) Database server (e.g., MySQL, PostgreSQL) for persistent data storage
+- A build tool such as Maven or Gradle
+- Database server (e.g., MySQL) for persistent data storage
 
 ### Installation
 
