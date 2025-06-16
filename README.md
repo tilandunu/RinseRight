@@ -77,5 +77,3 @@ Project owner: [tilandunu](https://github.com/tilandunu)
 
 ---
 
-> **Note:**  
-> Please update this README with more specific information about configuration (e.g., database setup, environment variables), usage examples, or any custom features as your project evolves.
