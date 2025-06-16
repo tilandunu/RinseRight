@@ -1,0 +1,202 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #b03d4b;
+}
+
+#mainHeadingDiv {
+	display: flex;
+	flex-direction: row;
+	padding: 74px 140px;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#headingDiv {
+	display: flex;
+	align-items: center;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	justify-content: space-between;
+}
+
+#headIcon {
+	display: flex;
+	padding: 0px 36px;
+	gap: 0px 40px;
+}
+
+#homeIcon {
+	color: #ffffff;
+	transition: 0.3s ease;
+}
+
+#homeIcon:hover {
+	color: #691414;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+#backIcon {
+	color: #ffffff;
+	transition: 0.3s ease;
+}
+
+#backIcon:hover {
+	color: #691414;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+#Heading {
+	display: flex;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	/* margin: 0 auto; */
+	font-size: 90px;
+	position: relative;
+	/* padding: 0px 110px 0px 18px; */
+}
+
+#LogoDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 0px 10px;
+}
+
+#headLogo {
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: #dbdbdb;
+	font-size: 21px;
+}
+
+#subHeadLogo {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #c8c8c8;
+	font-size: 9px;
+}
+
+.mainCardSection {
+	display: flex;
+	margin: 41px 130px 71px 130px;
+	padding: 60px 0px;
+	background-color: #f8f8f8;
+	border-radius: 32px;
+	align-items: center;
+	justify-content: space-around;
+	gap: 100px;
+	box-shadow: 0px 3px 20px -6px;
+	transition: 0.7s ease-in-out;
+}
+
+.mainCardSection:hover {
+	margin: 41px 100px 71px 100px;
+	/* padding: 60px 0px; */
+	transition: 0.7s ease-in-out;
+	/* box-shadow: 0px 3px 30px 0px; */
+}
+
+.textDiv {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	left: 250px;
+}
+
+.headText {
+	display: flex;
+	font-size: 26px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #494949;
+}
+
+.subText {
+	display: flex;
+	font-size: 13px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #7a7777;
+	position: relative;
+	top: -5px;
+}
+
+.price {
+	display: flex;
+	position: absolute;
+	right: 220px;
+	color: #494949;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 26px;
+}
+
+.shirt {
+	display: flex;
+	color: black;
+	padding: 0px 52px;
+	position: absolute;
+	left: 110px;
+	font-size: 40px;
+}
+
+.delete {
+	display: flex;
+	color: #000000;
+	font-size: 40px;
+	position: relative;
+	right: -570px;
+	transition: 0.5s ease;
+}
+
+#tagline {
+	margin: 0px auto;
+	color: #b4b4b4;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px;
+	font-size: 10px;
+}
+
+.delete:hover {
+	color: red;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.edit {
+	color: black;
+	position: relative;
+	right: -540px;
+	transition: 0.5s ease;
+}
+
+.edit:hover {
+	color: red;
+	transition: 0.5s ease;
+	cursor: pointer;
+}

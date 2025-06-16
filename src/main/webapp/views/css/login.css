@@ -1,0 +1,196 @@
+@charset "ISO-8859-1";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #ffe0ec;
+}
+
+#mainHeadingDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0px;
+}
+
+#headingDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  top: 40px;
+}
+
+#headIcon {
+  display: flex;
+  padding: 0px 70px;
+  gap: 0px 40px;
+}
+
+#homeIcon {
+  color: #220000;
+  transition: 0.3s ease;
+}
+
+#homeIcon:hover {
+  color: #a4003f;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#backIcon {
+  color: #220000;
+  transition: 0.3s ease;
+}
+
+#backIcon:hover {
+  color: #a4003f;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#Heading {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #805a5a;
+  margin: 0 auto;
+  font-size: 90px;
+  position: relative;
+  top: -50px;
+}
+
+#LogoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px 30px;
+}
+
+#headLogo {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 21px;
+}
+
+#subHeadLogo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #424242;
+  font-size: 9px;
+}
+
+#mainSectionDiv {
+  display: flex;
+  padding: 0px 0px 30px 0px;
+  flex-direction: column;
+}
+
+#mainSection1Div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.labelform {
+  display: flex;
+  padding: 13px 0px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: #000000;
+}
+
+#mainSection2Div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-items: center;
+}
+
+.inputDiv2 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.textBox2 {
+  display: flex;
+  width: 950px;
+  height: 40px;
+  padding: 0px 30px;
+  border-radius: 0px;
+  border: none;
+  background-color: #e0bbca;
+}
+
+#submitButtonDiv {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 32px 0px;
+}
+
+#submitButton {
+  display: flex;
+  width: 710px;
+  height: 43px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+  background-color: #896d78;
+  color: white;
+  letter-spacing: 11px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  transition: 0.4s ease;
+}
+
+#submitButton:hover {
+  width: 800px;
+  color: white;
+  height: 50px;
+  background-color: #38262d;
+  transition: 0.4s ease-in-out;
+}
+
+#loginLinkDiv {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 210px 0px;
+}
+
+#loginLink {
+  display: flex;
+  letter-spacing: 7px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #000000;
+  padding: 5px 0px;
+  border-bottom: 1px #000000 solid;
+  font-size: 10px;
+  transition: 0.6s ease;
+}
+
+#loginLink:hover {
+  padding: 11px 40px;
+  transition: 0.6s ease;
+  color: black;
+  border-bottom: 1px #000000 solid;
+  cursor: pointer;
+}

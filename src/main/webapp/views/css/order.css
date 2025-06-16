@@ -1,0 +1,328 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: white;
+	overflow: hidden;
+}
+
+#titleBar {
+	/* background-color: #626262; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px 0px;
+	border-radius: 0px 0px 30px 30px;
+	/* box-shadow: 0px 15px 30px -9px; */
+}
+
+#headingDiv {
+	display: flex;
+	flex-direction: column;
+	padding: 22px 52px;
+}
+
+#heading {
+	display: flex;
+	font-size: 25px;
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+}
+
+#subheading {
+	display: flex;
+	font-size: 11px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #6b6b6b;
+	position: relative;
+	top: 0px;
+}
+
+#logoDiv {
+	display: flex;
+	flex-direction: row;
+	gap: 0px 20px;
+	position: relative;
+	left: -310px;
+	align-items: center;
+	justify-content: center;
+}
+
+#arrow {
+	display: flex;
+	color: black;
+	font-size: 20px;
+	transition: 0.4s ease;
+}
+
+#arrow:hover {
+	color: #00fdff;
+	transition: 0.6s ease;
+	cursor: pointer;
+}
+
+#home {
+	display: flex;
+	color: black;
+	font-size: 20px;
+	transition: 0.4s ease;
+}
+
+#home:hover {
+	color: #00fdff;
+	transition: 0.6s ease;
+	cursor: pointer;
+}
+
+#topic {
+	display: flex;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+	padding: 20px 40px;
+}
+
+#contentDiv {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 50px;
+	padding: 30px;
+	background-color: #cec6b9;
+	border-radius: 10px;
+}
+
+div#contentDiv {}
+
+#contentDivInside {
+	display: flex;
+	flex-direction: column;
+	/* background-color: #d0d0d0; */
+	/* margin: 12px 12px 12px 12px; */
+	padding: 0px 0px 0px0px;
+	border-radius: 10px;
+}
+
+#firstSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 60px;
+}
+
+.dropdownDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.dropdownDiv2 {
+	display: flex;
+	flex-direction: row;
+	padding: 23px;
+	justify-content: flex-end;
+}
+
+.dropdownLabel {
+	display: flex;
+	padding: 10px 0px;
+	color: #444444;
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.dropdown1 {
+	display: flex;
+	/* border-radius: 20px; */
+	border: none;
+	width: 530px;
+	height: 50px;
+	text-align: center;
+	align-items: center;
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	/* margin: 0px 0px; */
+}
+
+#secondSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 0px 18px;
+	margin: 0px 0px 30px 0px;
+}
+
+.dropdown2 {
+	display: flex;
+	width: 650px;
+	height: 50px;
+	text-align: center;
+	align-items: center;
+	margin: 0px 50px;
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	border: none;
+	/* border-radius: 50px; */
+}
+
+#secondSectionPart1 {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 0px 80px;
+}
+
+#secondSectionPart2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -20px;
+}
+
+#quantityLabel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px;
+	color: #4a4a4a;
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#quantityIconDiv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	gap: 30px;
+}
+
+#decrementID {
+	display: flex;
+}
+
+#decrementID:hover {
+	cursor: pointer;
+}
+
+#incrementID {
+	display: flex;
+}
+
+#incrementID {
+	cursor: pointer;
+}
+
+#quantity {
+	display: flex;
+	width: 90px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+	border: none;
+}
+
+#BottomDiv {
+	display: flex;
+	justify-content: space-around;
+	gap: 0px 0px;
+	padding: 0px 120px 0px 120px;
+}
+
+#finalDiv {
+	display: flex;
+	align-items: center;
+}
+
+#finalButtons {
+	display: flex;
+	align-items: center;
+	gap: 0px 38px;
+}
+
+#finalLabel {
+	font-size: 25px;
+	padding: 30px 41px;
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#finalAmount {
+	background-color: #ffffff;
+	width: 500px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	letter-spacing: 2px;
+	color: #746f68;
+	/* border: 1px solid black; */
+	/* background-color: #756d5f; */
+	justify-content: center;
+}
+
+#addMoreButton {
+	background-color: white;
+	height: 50px;
+	width: 200px;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	border: none;
+	transition: 0.6s ease;
+}
+
+#addMoreButton:hover {
+	background-color: rgb(34, 34, 59);
+	color: white;
+	transition: 0.6s ease;
+}
+
+#finishButton {
+	background-color: #7c6f59;
+	height: 50px;
+	width: 280px;
+	color: white;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 20px;
+	border: none;
+	border-radius: 0px;
+	transition: 0.6s ease;
+}
+
+#finishButton:hover {
+	background-color: #275009;
+	color: #ffffff;
+	transition: 0.6s ease;
+}

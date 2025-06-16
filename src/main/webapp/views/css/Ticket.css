@@ -1,0 +1,150 @@
+@charset "ISO-8859-1";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+#headerDiv {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px 60px 210px;
+}
+
+#header {
+  display: flex;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #363062;
+  font-size: 60px;
+}
+
+#headIcon {
+  display: flex;
+  padding: 0px 70px;
+  gap: 0px 40px;
+}
+
+#homeIcon {
+  color: #363062;
+  transition: 0.3s ease;
+}
+
+#homeIcon:hover {
+  color: #31f4ff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#backIcon {
+  color: #363062;
+  transition: 0.3s ease;
+}
+
+#backIcon:hover {
+  color: #31f4ff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#formDiv {
+  display: flex;
+  padding: 10px 170px;
+}
+
+#checkBoxDiv {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#checkbox {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  margin: 10px 40px 10px 0px;
+}
+
+#checkboxLabel {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#typeDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.typeLabel {
+  display: flex;
+  padding: 20px 10px;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.selectTypeBox {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+#SubTypeDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+#enterInquiryDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.boxLabel {
+  display: flex;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px 10px;
+}
+
+.box {
+  display: flex;
+  padding: 10px;
+}
+
+#enterSuggestionsDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+#submitDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  display: flex;
+  padding: 10px 50px;
+  margin: 40px 10px;
+}

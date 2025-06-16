@@ -1,0 +1,201 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #f7f7f7;
+}
+
+#headerDiv {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 80px 120px 30px 218px;
+}
+
+#header {
+	display: flex;
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #363062;
+	font-size: 60px;
+}
+
+#headIcon {
+	display: flex;
+	padding: 0px 70px;
+	gap: 0px 40px;
+}
+
+#homeIcon {
+	color: #363062;
+	transition: 0.3s ease;
+}
+
+#homeIcon:hover {
+	color: #1f00ff;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+#backIcon {
+	color: #363062;
+	transition: 0.3s ease;
+}
+
+#backIcon:hover {
+	color: #1f00ff;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+#buttonDiv {
+	display: flex;
+	position: relative;
+	top: 40px;
+	left: 180px;
+}
+
+#responded {
+	background-color: #363062;
+	color: #ffffff;
+	font-size: 12px;
+	transition: 0.4s ease-in-out;
+}
+
+#noResponse {
+	background-color: #d9d9d9;
+	color: #4d4c7d;
+	font-size: 12px;
+	transition: 0.4s ease-in-out;
+}
+
+#mainDiv {
+	display: flex;
+	flex-direction: column;
+	border: 1px black solid;
+	padding: 50px 10px 10px 10px;
+	margin: 10px 140px;
+}
+
+.ticketDiv {
+	display: flex;
+	border: 1px solid black;
+	padding: 40px 80px;
+	margin: 20px 30px;
+	background-color: white;
+	flex-direction: column;
+}
+
+.ticketNo {
+	display: flex;
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #4d4c7d;
+}
+
+.buttons {
+	display: flex;
+	border: 1px solid #4d4c7d;
+	padding: 20px 43px;
+	margin: 10px 10px;
+	align-items: center;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#responded:hover {
+	background-color: black;
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+
+#noResponse:hover {
+	background-color: black;
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+
+/* Modal */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 9999; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%; /* Could be more or less, depending on screen size */
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	animation-name: modalopen; /* Add animation */
+	animation-duration: 0.4s;
+}
+
+/* Modal Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	display: flex;
+	position: relative;
+	top: -70px;
+}
+
+.close:hover, .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Modal Animation */
+keyframes modalopen {
+	from {opacity: 0
+}
+
+to {
+	opacity: 1
+}
+
+}
+#modalHeader {
+	display: flex;
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #4d4c7d;
+	padding: 10px 0px;
+	border-bottom: 1px solid;
+	margin: 10px 0px;
+}
+
+#responseContent{
+	display: flex;
+	font-size: 13px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #000000;
+	flex-direction: column;
+}

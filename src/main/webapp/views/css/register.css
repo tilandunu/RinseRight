@@ -1,0 +1,224 @@
+@charset "ISO-8859-1";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #22223b;
+}
+
+#mainHeadingDiv {
+  display: flex;
+  background-color: #22223b;
+  flex-direction: column;
+  padding: 24px 0px;
+}
+
+#headingDiv {
+  display: flex;
+  background-color: #22223b;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  top: 40px;
+}
+
+#headIcon {
+  display: flex;
+  padding: 0px 70px;
+  gap: 0px 40px;
+}
+
+#homeIcon {
+  color: white;
+  transition: 0.6s ease;
+}
+
+#homeIcon:hover {
+  transition: 0.6s ease;
+  color: #84c2ff;
+  cursor: pointer;
+}
+
+#backIcon {
+  color: white;
+  transition: 0.6s ease;
+}
+
+#backIcon:hover {
+  transition: 0.6s ease;
+  color: #84c2ff;
+  cursor: pointer;
+}
+
+#Heading {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0 auto;
+  font-size: 90px;
+  position: relative;
+  top: -50px;
+}
+
+#LogoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px 30px;
+}
+
+#headLogo {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 21px;
+}
+
+#subHeadLogo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #bbbbbb;
+  font-size: 9px;
+}
+
+#mainSectionDiv {
+  display: flex;
+  padding: 0px 0px 30px 0px;
+  flex-direction: column;
+}
+
+#mainSection1Div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+#firstSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px 20px;
+}
+
+#secondSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px 20px;
+}
+
+.inputDiv1 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.labelform {
+  display: flex;
+  padding: 13px 0px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: white;
+}
+
+.textBox1 {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  padding: 0px 30px;
+  border-radius: 0px;
+  border: none;
+}
+
+#mainSection2Div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-items: center;
+}
+
+.inputDiv2 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.textBox2 {
+  display: flex;
+  width: 942px;
+  height: 40px;
+  padding: 0px 30px;
+  border-radius: 0px;
+  border: none;
+}
+
+#submitButtonDiv {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px 52px 0px;
+}
+
+#submitButton {
+  display: flex;
+  width: 710px;
+  height: 43px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+  background-color: #4a4e69;
+  color: white;
+  letter-spacing: 11px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  transition: 0.6s ease;
+}
+
+#submitButton:hover {
+  width: 800px;
+  color: black;
+  background-color: white;
+  transition: 0.6s ease;
+}
+
+#loginLinkDiv {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 210px 0px;
+}
+
+#loginLink {
+  display: flex;
+  letter-spacing: 7px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #9c9c9c;
+  padding: 5px 0px;
+  border-bottom: 1px #7c7c7c solid;
+  font-size: 10px;
+  transition: 0.6s ease;
+}
+
+#loginLink:hover {
+  padding: 11px 40px;
+  transition: 0.6s ease;
+  color: white;
+  border-bottom: 1px #ffffff solid;
+}

@@ -1,0 +1,625 @@
+@charset "ISO-8859-1";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#titleDiv {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0px 25px 0px;
+  color: #22223b;
+}
+
+#title {
+  font-size: 78px;
+  display: flex;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#subtitle {
+  font-size: 13px;
+  display: flex;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4a4e69;
+}
+
+#menuDiv {
+  display: flex;
+  padding: 30px 40px;
+  transition: 0.5s ease;
+}
+
+#menuDiv:hover {
+  color: red;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#navDiv {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#homeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0px 10px;
+  z-index: 99;
+}
+
+#registerDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+  align-items: center;
+  padding: 0px 20px;
+  z-index: 1;
+}
+
+#manageAccountDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+  align-items: center;
+  padding: 0px 20px;
+  z-index: 1;
+}
+
+#registerButton {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px #22223b solid;
+  width: 185px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #22223b;
+  transition: 0.5s ease;
+  z-index: 99;
+}
+
+#manageAccountButton {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px #22223b solid;
+  width: 185px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #22223b;
+  transition: 0.5s ease;
+  z-index: 99;
+}
+
+#manageAccountButton:hover {
+  background-color: #22223b;
+  color: white;
+  transition: 0.5s ease;
+}
+
+#registerButtonFont {
+  z-index: 2;
+}
+
+#loginButton {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+#loginButton:hover {
+  color: red;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#logoutButton {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 12px;
+  transition: 0.5s ease;
+  border-bottom: 1px black solid;
+  /* text-decoration: underline; */
+  padding: 0px 0px 4px 0px;
+}
+
+#logoutButton:hover {
+  color: red;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border-bottom: 1px red solid;
+  padding: 0px 10px 5px 10px;
+}
+
+#placeOrderDiv {
+  display: flex;
+}
+
+#placeOrderButton {
+  display: flex;
+  margin: 0px auto;
+  width: 500px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  padding: 0px 0px;
+  background-color: #22223b;
+  border-radius: 9px;
+  z-index: 999;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  letter-spacing: 4px;
+  transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+#image {
+  margin: 0px auto;
+}
+
+#imgDiv {
+  display: flex;
+  position: relative;
+  top: -45px;
+}
+
+#pr1Div {
+  display: flex;
+  padding: 20px 240px;
+}
+
+#pr1 {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  padding: 0px 40px;
+  line-height: 33px;
+}
+
+#line1Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+#line1 {
+  width: 810px;
+}
+
+#whyChooseUsDiv {
+  display: flex;
+  background-color: #22223b;
+  margin: 132px 0px;
+  padding: 0px 0px;
+}
+
+#chooseUsImgDiv {
+  /* display: flex; */
+  margin: 0px 0px -4px 0px;
+  position: relative;
+  left: -75px;
+}
+
+#chooseUsContentDiv {
+  display: flex;
+  padding: 0px 0px;
+  flex-direction: column;
+  padding: 48px 60px;
+}
+
+#chooseUsTopic {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 70px;
+  color: #f2e9e4;
+  padding: 120px 0px 30px 0px;
+}
+
+#chooseUsContent {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #f2e9e4;
+  font-size: 14px;
+  padding: 40px 0px;
+}
+
+#mainCardDiv {
+  display: flex;
+  padding: 50px 100px 110px 100px;
+  justify-content: space-evenly;
+}
+
+.cardDiv {
+  display: flex;
+  width: 300px;
+  height: 590px;
+  background-color: #4a4e69;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  transition: 0.6s ease;
+}
+
+.cardDiv:hover {
+  transition: 0.6s ease;
+  box-shadow: black 1px 11px 41px -11px;
+  background-color: #1d1d30;
+}
+
+.subCardDiv {
+  display: flex;
+  width: 290px;
+  height: 553px;
+  background: none;
+  padding: 10px 10px;
+  margin: 0px -5px;
+  border: 2px #bababa solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.subsubCardDiv {
+  display: flex;
+  width: 350px;
+  height: 563px;
+  background: none;
+  padding: 0px 0px;
+  margin: 0px -5px;
+  border: 2px #bababa solid;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px 0px;
+  padding: 60px 0px 0px 0px;
+}
+
+#verfiedicon {
+  color: #f2e9e4;
+  font-size: 90px;
+}
+.sectionTopic {
+  display: flex;
+  color: #f2e9e4;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.sectionPara {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 33px;
+  color: #f2e9e4;
+}
+
+#convenienceicon {
+  color: #f2e9e4;
+  font-size: 90px;
+}
+
+#timericon {
+  color: #f2e9e4;
+  font-size: 90px;
+}
+
+#footerDiv {
+  display: flex;
+  background-color: #22223b;
+  justify-content: space-around;
+}
+
+#footerLogoDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#footerLogoHead {
+  font-size: 34px;
+  display: flex;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #f2e9e4;
+  padding: 0px;
+}
+
+#footerLogoSaubHead {
+  font-size: 12px;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a49d99;
+}
+
+#footerAddress {
+  font-size: 8px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+  padding: 4px 0px;
+}
+
+#footerlineDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px #666666 solid;
+  margin: 20px 10px;
+}
+
+#footerLinksDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+  left: -70px;
+}
+
+#footerLinkHead {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #f2e9e4;
+  font: 10px;
+  padding: 0px 0px;
+}
+
+#linksLine {
+  width: 130px;
+  color: white;
+  margin: 10px 0px;
+}
+
+.footerLinks {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #aeaeae;
+  padding: 2px 0px;
+  font-size: 11px;
+  transition: 0.5s ease;
+}
+
+.footerLinks:hover {
+  cursor: pointer;
+  color: #a8ffec;
+  transition: 0.5s ease;
+}
+
+#mainFinalDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+}
+
+#getLatestUpdatesDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0px;
+}
+
+#footerForm {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#getLatestUpdatestext {
+  display: flex;
+  color: white;
+  font-size: 10px;
+  padding: 7px 0px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#getLatestUpdatesBox {
+  display: flex;
+  border: 1px white solid;
+  padding: 10px 10px;
+  width: 425px;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#getLatestUpdatesBoxText {
+  display: flex;
+  color: #807d7c;
+  font-size: 9px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#followusDivMain {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 0px 60px;
+}
+
+#followusDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+#followustext {
+  display: flex;
+  color: white;
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#followUsIconDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 0px 20px;
+}
+
+#facebook {
+  color: white;
+}
+
+#instagram {
+  color: white;
+}
+
+#twitter {
+  color: white;
+}
+
+#trademark {
+  display: flex;
+  color: #8a8a8a;
+  font-size: 11px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+::placeholder {
+  display: flex;
+  color: #8a8a8a;
+  font-size: 11px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#placeOrderButton:hover {
+  color: #22223b;
+  background-color: white;
+  transition: 0.5s cubic-bezier(0.4, 0, 1, 1);
+  box-shadow: 0px 12px 8px 0px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  cursor: pointer;
+}
+
+#registerButton:hover {
+  background-color: #22223b;
+  color: white;
+  transition: 0.5s ease;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #202038;
+  transition: left 0.3s ease;
+  display: flex;
+}
+
+.sidebarLinks {
+  display: flex;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding: 20px 10px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  background: none;
+  border: none;
+}
+
+.sidebarLinks:hover {
+  background-color: #ffffff;
+  color: #202038;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#sidebarLinksDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 110px 20px;
+  gap: 50px 0px;
+}
+
+#content {
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
